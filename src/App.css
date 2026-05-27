@@ -1,0 +1,30 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+button{
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
